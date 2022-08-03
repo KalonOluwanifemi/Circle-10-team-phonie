@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(3, 84, 116);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+h1{
+    margin: 30px auto;
+    letter-spacing: 10px;
+    width: fit-content;
+}
+body p{
+    font-size: large;
+    margin-bottom: 10px;
+}
+div{
+    margin: 10px;
+}
+form{
+    
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+}
+p{
+    margin: 15px auto;
+    width: fit-content;
+    letter-spacing: 8px;
+}
+form input{
+    border-radius: 3px;
+    border: 1px solid white;
+    height: 25px;
+    width: 300px;
+    font-size: small;
+    color:  rgb(2, 106, 147);
+}
+input:focus{
+    outline: none;
+}
+#reset{
+    margin-bottom: 10px;
+    margin-left: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid skyblue;
+    background-color:  rgb(5, 101, 139);
+    color: white;
+    letter-spacing: 2px;
+}
+label{
+    letter-spacing: 2px;
+    line-height: 1.2rem;
+    font-size: small;
+}
+select{
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 25px;
+}
+#userInterface {
+    background-color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 2px;
+    text-align: center;
+    color: rgb(3, 54, 75);
+    font-size: small;
+    letter-spacing: normal;
+    color: rgb(3, 54, 75);
+    font-weight: bold;
+}
